@@ -1,0 +1,18 @@
+{%extends 'base.html'%}
+
+{%block head%}
+<h1>Task</h1>
+
+{%endblock%}
+
+{%block body%}
+<div class="content">
+    <h1>Update Your Task ✍ ◔◡◔</h1>
+
+
+    <form action="/update/{{task.id}}" method="POST">
+        <input tupe="text" name="content" autocomplete="off" value="{{task.content}}" class="updateInput">
+        <input type="submit" value="update" class="updateSubmit">
+    </form>
+</div>
+{%endblock%}

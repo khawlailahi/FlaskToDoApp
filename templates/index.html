@@ -1,0 +1,49 @@
+{%extends 'base.html'%}
+
+{%block head%}
+<h1 style="background-color:rgba(255,255,255,0.5);">Task Manager</h1>
+
+{%endblock%}
+
+{%block body%}
+<div class=" content">
+    <h1 style="font-family: 'Great Vibes'; font-weight: bold; font-size: 50px; color:#3a3a47;">
+        Your To Do List ♡</h1>
+
+    {% if tasks|length < 1 %} <h4>You Have No Tasks. Let's add one below! ✍(◔◡◔) </h4>
+        <form action="/" method="POST">
+            <input tupe="text" name="content" autocomplete="off" class="inputText">
+            <input type="submit" value="Add a Task" class="inputSubmit">
+        </form>
+        {%else%}
+        <br>
+        <table style="width: 700px">
+            <tr>
+                <th class="TaskTH"> Task</th>
+                <th class="added">
+                    added in
+                </th>
+                <th class="invTH">
+                </th>
+            </tr>
+            {% for task in tasks%}
+            <tr>
+                <td class="contentTD"> ✿ {{task.content}}</td>
+                <td class="dateTD">{{task.date_created.date()}}</td>
+                <td class="invTD">
+                    <a href='/delete/{{task.id}}'><button class="delete">Delete</button></a>
+
+                    <a href='/update/{{task.id}}'><button class="update">Update</button></a>
+                </td>
+            </tr>
+            {%endfor%}
+
+            <form action="/" method="POST">
+                <input tupe="text" name="content" autocomplete="off" class="inputText">
+                <input type="submit" value="Add a Task" class="inputSubmit">
+            </form>
+            <br><br>
+        </table>
+        {%endif%}
+</div>
+{%endblock%}

@@ -1,0 +1,119 @@
+body, html {
+    margin: 10px;
+    font-family: sans-serif;
+    background-image: url('http://www.dream-wallpaper.com/free-wallpaper/photography-wallpaper/notebook-wallpaper/2560x1600/free-wallpaper-6.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.content {
+    margin: 0 auto;
+    width: 400px;
+}
+
+table, td, th {
+    border: 1px solid #aaa;
+
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th {
+    height: 30px;
+    background-color: rgb(255,255,255,0.7);
+}
+
+td {
+    text-align: center;
+    padding: 5px;
+    background-color: rgb(255,255,255,0.7);
+}
+
+.form {
+    margin-top: 20px;
+}
+
+#content {
+    width: 70%;
+}
+
+.inputText{
+    width: 57%;
+    padding: 9px 20px;
+    margin: 8px 0;
+    margin-right: 2px;
+    border-radius:6px ;
+    font-size: 15px;
+}
+.inputSubmit{
+    background-color: #528B8B;
+    color:white;
+     cursor:pointer;
+     border: none; 
+     padding: 5px;
+     font-size: 20px; 
+    border-radius: 8px;
+}
+.TaskTH{
+    width: 100px;
+    background-color: #ff7b7b;
+     font-weight: bold;
+     font-size: 20px;
+}
+.added{
+    background-color: #ffbaba;
+}
+.invTH{
+    border: 1px solid transparent;
+    background-color:rgba(0,0,0,0.0);
+}
+.contentTD{
+    width: 100px;
+    text-align: start;
+    font-weight: bold;
+}
+.dateTD{
+    width: 50px ;
+}
+.invTD{
+    text-align: start;
+    border: 1px solid transparent;
+    background-color:rgba(0,0,0,0.0);
+    width: 60px ;
+}
+.delete{
+    background-color: #ff7b7b;
+     cursor:pointer;
+     color:white;
+     border: none;
+     padding: 6px;
+     border-radius: 8px;
+}
+.update{
+    background-color: #50A6C2;
+    color:white;
+     cursor:pointer;
+     border: none; 
+     padding: 6px;
+     border-radius: 8px;
+}
+.updateInput{
+    width: 57%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        border-radius:8px ;
+        font-size: 15px;
+}
+.updateSubmit{
+    background-color: #50A6C2;
+    color:white;
+     cursor:pointer;
+     border: none;
+      padding: 9px;
+      font-size: 20px;
+      border-radius: 8px;
+}
