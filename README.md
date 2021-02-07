@@ -6,10 +6,10 @@ Learning Flask Through a small, elegant Task Manager (ToDoApp) that allows you t
 - Backend : Flask 
 - Database : SQLALchemy
 
-<img src= "images/image1.png" width = "100">
+<img src= "images/image1.png" width = "400">
 ![](images/image1.png)
 
-<img src= "images/image2.png" width = "100">
+<img src= "images/image2.png" width = "3400">
 ![](images/image2.png)
 ## How to get started 
 - Install the latest version of python
