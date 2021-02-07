@@ -9,7 +9,8 @@ Learning Flask Through a small, elegant Task Manager (ToDoApp) that allows you t
 <img src= "images/image1.png" width = "100">
 ![](images/image1.png)
 
-
+<img src= "images/image2.png" width = "100">
+![](images/image2.png)
 ## How to get started 
 - Install the latest version of python
 - Download or clone the repo
