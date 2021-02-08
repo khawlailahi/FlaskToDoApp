@@ -11,6 +11,7 @@ Learning Flask Through a small, elegant Task Manager (ToDoApp) that allows you t
 - Download or clone the repo
 - Open it in a code editor
 - Activate the virtual enviroment : venv/Scripts/activate
+- run the command : pip install flask flask-sqlalchemy
 - Run the surver : python app.py 
 
 <img src= "images/image1.png" width = "1000">
