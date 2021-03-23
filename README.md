@@ -10,13 +10,24 @@
 - Backend : Flask 
 - Database : SQLALchemy
 
+<<<<<<< HEAD
 <img src= "images/image1.png" width = "100">
 <img src= "images/image2.png" width = "100">
 
 ## How to get started ⌨️
+=======
+## How to get started 
+>>>>>>> cceff5fca864c894ed0aeb7f9b2f6365aa077992
 - Install the latest version of python
 - Download or clone the repo
 - Open it in a code editor
 - Activate the virtual enviroment : venv/Scripts/activate
+- run the command : pip install flask flask-sqlalchemy
 - Run the surver : python app.py 
+
+<img src= "images/image1.png" width = "1000">
+![](images/image1.png)
+
+<img src= "images/image2.png" width = "1000">
+![](images/image2.png)
 
